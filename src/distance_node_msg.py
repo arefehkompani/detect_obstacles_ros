@@ -50,8 +50,5 @@ class distance_node_msg:
 
 
 if __name__ == '__main__':
-    try:
         node = distance_node_msg()
         node.talk()
-    except rospy.ROSInterruptException:
-        pass
