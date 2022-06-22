@@ -1,5 +1,5 @@
 <launch>
-    <node pkg="calculate_distance" type="distance_node_msg.py" name="distance_node_msg" output="screen"></node>
+    <node pkg="calculate_distance" type="distance_node_calculator.py" name="distance_node_calculator" output="screen"></node>
     
     <include file="$(find calculate_distance)/launch/turtlebot3_big_wall.launch"></include>
 </launch>
